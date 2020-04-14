@@ -35,3 +35,68 @@ a {
 a:hover{
     color: #f9014d;
 }
+
+/* section part -----------------*/
+.header {
+    display: none;
+}
+
+/* section part -----------------*/
+
+.section {
+    float: left;
+    width: 100%;
+}
+
+/* search and estatisticas */
+.search-box {
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+    background-image: url(../img/bg-search.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.search-box h1 {
+    font-size: 37px;
+    font-weight: bold;
+}
+
+.search-box .tagline {
+    font-size: 26px;
+}
+
+.search-box form {
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    max-width: 500px;
+    margin-top: 40px ;
+}
+
+.search-box form input[type="search"] {
+    width: 100%;
+    height: 50px;
+    font-size: inherit;
+    color: #2c3e50;
+    padding: 0 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.search-box form button {
+    position: absolute;
+    background: #a70606;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    -webkit-border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}

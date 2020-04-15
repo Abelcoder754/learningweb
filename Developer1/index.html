@@ -14,21 +14,28 @@
   <body>
     <!-- start HEADER -->
     <header class="header">
-      <div class="header-content">
-        <div class="logo">
+      <div class="content">
+        <div class="logo fl-left">
           <a href="#">
             <img src="img/logo.png" alt="HTML e CSS Pro">
           </a>
         </div>
+        <a href="#" class="nav-toggle fl-right">
+          <i class="fas fa-bars"></i> MENU
+        </a>
+        <nav class="nav active">
+          <p class="fl-right">
+            <span class="nav-close">
+              <i class="fas fa-times"></i>
+            </span>
+          </p>
+          <ul>
+            <li><a href="#">Barcos e Lanchas</a></li>
+            <li><a href="#">Destaques </a></li>
+            <li><a href="#">Testemunhas</a></li>
+          </ul>
+        </nav>
       </div>
-
-      <nav class="nav">
-        <ul>
-          <li><a href="#">Barcos e Lanchas</a></li>
-          <li><a href="#">Destaques </a></li>
-          <li><a href="#">Testemunhas</a></li>
-        </ul>
-      </nav>
     </header>
     <!--end /HEADER-->    
 
@@ -68,5 +75,7 @@
     </section>
     <!--end SEARCH AND ESTATISTICAS-->
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

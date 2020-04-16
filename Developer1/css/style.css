@@ -62,15 +62,36 @@ img {
     font-weight: normal;
 }
 
+/*content*/
 .content {
     max-width: 960px;
     width: 90%;
     margin: 0 auto;
 }
 
+/*row*/
 .row {
     float: left;
     width: 100%;
+    margin: 100px;
+}
+
+/*loadmore*/
+.loadmore {
+    background: none;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    font-size: 17px;
+    cursor: pointer;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.loadmore:hover {
+    color: #a70606;
+    border: 1px solid #a70606;
 }
 
 /* box part --------------- */

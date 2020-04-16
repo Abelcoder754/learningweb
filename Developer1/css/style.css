@@ -196,6 +196,8 @@ img {
     width: 100% ;
     padding-top: 30px;
     z-index: 6;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .header .logo img {

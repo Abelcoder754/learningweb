@@ -8,7 +8,7 @@ $(function(){
         }
     );
 
-    /*fixar header*/
+    //fixar header
     $(window).scroll(function(){
         if($(this).scrollTop() > 100) {
             $('header').addClass('fixed');

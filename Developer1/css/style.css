@@ -310,7 +310,7 @@ img {
     color: #fff;
     font-size: 23px;
     padding: 160px 0;
-    margin: 60px 0;
+    margin-top: 60px;
     background-image: url(../img/bg-paralax.jpg);
     background-size: cover;
     background-position: center;
@@ -347,7 +347,6 @@ img {
 /*testemunhas*/
 .testemunhas {
     padding: 100px 0;
-    margin: 60px 0;
     background-image: url(../img/bg-testemunhas.jpg);
     background-size: cover;
     background-position: center;
@@ -394,6 +393,45 @@ img {
 .testemunhas-article .name {
     color: #a70606;
     font-weight: bold;
+}
+
+/*footer part*/
+.footer {
+    background: #181818;
+    float: left;
+    width: 100%;
+    color: #fff;
+    padding: 30px 0;
+    text-align: justify;
+}
+
+.footer-col {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.footer-col h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-col-links li{
+    padding: 10px 0;
+}
+
+.footer-col-links li:not(:last-of-type) {
+    border-bottom: 1px solid #fff;
+}
+
+.footer-col-social li  {
+    padding: 10px 0;
+}
+
+.footer-col-social li .fab {
+    font-size: 25px;
+    margin-right: 5px;
 }
 
 /* breakpoints maximos */
@@ -523,6 +561,22 @@ img {
     .testemunhas-article:last-of-type {
         margin-right: 0;
     }
+
+    /*footer*/
+    .footer-col {
+        width: 40%;
+    }
+
+    .footer-col:nth-child(2) {
+        width: 25%;
+        margin-left: 5%;
+    }
+
+    .footer-col:nth-child(3) {
+        width: 20%;
+        margin-left: 5%;
+    }
+
 }
 
 @media (min-width: 900px) {

@@ -30,6 +30,7 @@ ol, ul {
 a {
     text-decoration: none;
     color: inherit;
+    transition: all 500ms ease-in-out;
 }
 
 a:hover{
@@ -219,9 +220,6 @@ img {
     color: #fff;
     padding: 100px 0;
     background-image: url(../img/bg-search.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 .search-box h1 {
@@ -267,7 +265,6 @@ img {
     border-bottom-right-radius: 6px;
 }
 
-
 /* estatisticas */
 .estatisticas {
     background: #fff;
@@ -312,9 +309,6 @@ img {
     padding: 160px 0;
     margin-top: 60px;
     background-image: url(../img/bg-paralax.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 .parallax h1 {
@@ -348,9 +342,6 @@ img {
 .testemunhas {
     padding: 100px 0;
     background-image: url(../img/bg-testemunhas.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 .testemunhas-article {
@@ -430,8 +421,22 @@ img {
 }
 
 .footer-col-social li .fab {
-    font-size: 25px;
+    background: #000;
+    font-size: 20px;
     margin-right: 5px;
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/*autorais*/
+.footer-autorais {
+    padding: 20px;
+    border-top: 1px solid #fff;
+    color: #ccc;
 }
 
 /* breakpoints maximos */
@@ -610,4 +615,12 @@ img {
 }
 .fl-right {
     float: right;
+}
+
+/*bg-fixed*/
+.bg-fixed {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
